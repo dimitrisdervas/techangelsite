@@ -1,0 +1,25 @@
+ 
+<section  class="section-block work">
+
+      <p class="sub-title" >SHOWCASE YOUR WORK HERE.</p>
+      <h2 class="main-title" >Our Portfolio</h2>
+ <!-- BEGIN #portfolio-slider --> 
+  <div class="">
+  {% for post in site.categories['work'] %}
+      <div class="grid-2 portofolio-content">                      
+                 <div class="">
+                    <h3 class="work-title">{{ post.title }}</h3>
+                    <div class="morelink">
+                      <i class="icon-plus-sign inline-icon"></i>
+                      </div>
+                    </div>                   
+              <img width="558" height="379" src=" {{ post.image }} " alt=" {{ post.alttext }} ">
+          </div>
+       {% endfor %}  
+    </div> 
+             <!-- END #portfolio-slider --> 
+ </section>
+    
+    
+
+

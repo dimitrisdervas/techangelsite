@@ -1,0 +1,19 @@
+ <section class="slideshow-block">
+  <div class="flexslider">
+    <ul class="slides">
+      {% for post in site.categories['slideshow'] %}
+      <li>
+      <div class="slider-content">
+          <div class="slider-content-inner">
+             <h2>{{ post.title }}</h2>                                
+             <div class="clear"></div>
+             <h3><a href="#">{{ post.subtitle }}</a></h3>  
+            </div>
+          </div>
+        <img src="{{ post.slideshow }}">
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <!-- END .slideshow section -->
+  </section>

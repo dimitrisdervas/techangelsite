@@ -1,0 +1,54 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@import "susy";
+
+// Susy Variables
+
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1em;
+$total-columns: 6;
+$column-width: 4em;
+$gutter-width: $horz-spacing-unit;
+$grid-padding: 5px;
+
+$tab: 44em 12; // At 44em use 12 columns.
+$desk: 50em 16; // At 70em use 16 columns.
+
+
+$container-style: fluid;
+
+.content-wrapper,
+.header-wrapper,
+.section-wrapper {
+ @include container;
+ padding: 0;
+ }
+
+
+$container-style: magic;
+$container-width: 1140px;
+
+@include at-breakpoint($tab) {
+
+}
+
+
+@include at-breakpoint($desk) {
+  .header-block,
+  .section-block,
+  .footer-block {
+    @include container; 
+  // Define these elements as the grid containers.
+    //@include susy-grid-background; // Show the columns for debugging.
+    margin-bottom: $vert-spacing-unit;
+  }
+  #navigation {
+    @include span-columns( 8 omega, 16)
+  }
+}
+ 
