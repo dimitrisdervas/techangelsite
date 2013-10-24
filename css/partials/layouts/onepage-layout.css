@@ -24,8 +24,8 @@
   clear: both;
 }
 
-@media (min-width: 50em) {
-  /* line 44, ../../../_sass/partials/layouts/onepage-layout.scss */
+@media (min-width: 44em) {
+  /* line 40, ../../../_sass/partials/layouts/onepage-layout.scss */
   .header-block,
   .section-block,
   .footer-block {
@@ -45,9 +45,85 @@
     clear: both;
   }
 
-  /* line 50, ../../../_sass/partials/layouts/onepage-layout.scss */
+  /* line 46, ../../../_sass/partials/layouts/onepage-layout.scss */
+  #navigation {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 49, ../../../_sass/partials/layouts/onepage-layout.scss */
+  .grid-3 {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 184, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-1.0.9/sass/susy/_grid.scss */
+  .grid-3:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 53, ../../../_sass/partials/layouts/onepage-layout.scss */
+  .grid-2 {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 184, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-1.0.9/sass/susy/_grid.scss */
+  .grid-2:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 70em) {
+  /* line 63, ../../../_sass/partials/layouts/onepage-layout.scss */
+  .header-block,
+  .section-block,
+  .footer-block {
+    max-width: 1130px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  /* line 38, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .header-block:after,
+  .section-block:after,
+  .footer-block:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* line 69, ../../../_sass/partials/layouts/onepage-layout.scss */
   #navigation {
     width: 49.36709%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 72, ../../../_sass/partials/layouts/onepage-layout.scss */
+  .grid-3 {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+  /* line 184, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-1.0.9/sass/susy/_grid.scss */
+  .grid-3:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 76, ../../../_sass/partials/layouts/onepage-layout.scss */
+  .grid-2 {
+    width: 49.36709%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+  /* line 184, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-1.0.9/sass/susy/_grid.scss */
+  .grid-2:nth-child(2n) {
     float: right;
     margin-right: 0;
   }
