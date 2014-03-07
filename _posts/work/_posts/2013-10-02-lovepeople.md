@@ -2,7 +2,7 @@
 layout: work
 title: Lovepeople.gr - No-Profit
 categories: work
-image: assets/images/work/lovepeople.png
+image: assets/images/work/lovepeople558px.png
 link: lovepeople.gr
 last: last
 ---

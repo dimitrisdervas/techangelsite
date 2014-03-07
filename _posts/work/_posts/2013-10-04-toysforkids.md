@@ -2,7 +2,7 @@
 layout: work
 title: Toysforkids.gr - eshop
 categories: work
-image: assets/images/work/toysforkids.png
+image: assets/images/work/toysforkids558px.png
 link: toysforkids.gr
 last: last
 ---
