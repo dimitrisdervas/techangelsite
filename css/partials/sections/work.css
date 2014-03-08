@@ -1,0 +1,44 @@
+/* line 1, ../../../_sass/partials/sections/work.scss */
+#work.section-wrapper {
+  background-color: #474a4f;
+}
+
+/* line 8, ../../../_sass/partials/sections/work.scss */
+#work .section-block {
+  background-color: #474a4f;
+  color: #fff;
+}
+/* line 12, ../../../_sass/partials/sections/work.scss */
+#work .portofolio-content {
+  margin-bottom: 40px;
+}
+/* line 16, ../../../_sass/partials/sections/work.scss */
+#work a .work-title {
+  background: #1f2329;
+  letter-spacing: 1px;
+  max-width: 80%;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 20px 20px;
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  float: left;
+}
+/* line 30, ../../../_sass/partials/sections/work.scss */
+#work a .morelink {
+  display: inline;
+  float: left;
+}
+/* line 34, ../../../_sass/partials/sections/work.scss */
+#work a .inline-icon {
+  border-radius: 2px;
+  background-color: #1c93c5;
+  display: inline-block;
+  vertical-align: top;
+  padding: 18px 20px;
+  font-size: 1.5em;
+  color: #ffffff;
+}

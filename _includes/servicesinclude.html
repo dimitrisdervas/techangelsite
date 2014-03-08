@@ -1,24 +1,20 @@
  
-    <section class="section-block ">
+  <section class="section-block ">
 
-      <p class="sub-title" >HIGHLIGHTING THE PROXY FEATURES. </p>
-      <h2 class="main-title" >Services</h2>
+    <p class="sub-title" >HIGHLIGHTING THE PROXY FEATURES. </p>
+    <h2 class="main-title" >Services</h2>
 
-      {% for post in site.categories['services'] %} 
-          <div class="grid-3 {{ post.last }} service-block">
+    {% for post in site.categories['services'] %} 
+        <div class="grid-3 {{ post.last }} service-block">
 
-                  <div class="service-icons">
-                    <div class="{{ post.icons }} inline-icon" ></div>
-                  </div>
-
-                  <h3 class="service-title"> {{ post.title }} </h3>
-                  <div class="service-description"> {{ post.content }} </div>    
-
+                <div class="service-icons">
+                  <div class="{{ post.icons }} inline-icon" ></div>
                 </div>
-            {% endfor %}
 
-                
-            
+                <h3 class="service-title"> {{ post.title }} </h3>
+                <div class="service-description"> {{ post.content }} </div>    
 
-    </section>
+              </div>
+          {% endfor %}
+  </section>
 
