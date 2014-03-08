@@ -1150,7 +1150,7 @@ a {
   text-decoration: none;
 }
 
-/* line 18, ../_sass/partials/utility/variables/_typography.scss */
+/* line 17, ../_sass/partials/utility/variables/_typography.scss */
 a#about,
 a#services,
 a#work,
@@ -1161,7 +1161,7 @@ a#contact {
   visibility: hidden;
 }
 
-/* line 28, ../_sass/partials/utility/variables/_typography.scss */
+/* line 27, ../_sass/partials/utility/variables/_typography.scss */
 #about.section-wrapper,
 #services.section-wrapper,
 #work.section-wrapper,
@@ -1169,13 +1169,13 @@ a#contact {
   padding: 80px 0;
 }
 
-/* line 34, ../_sass/partials/utility/variables/_typography.scss */
+/* line 33, ../_sass/partials/utility/variables/_typography.scss */
 .section-block .sub-title {
   margin: 0 0 15px 0;
   font-size: 13px;
   font-weight: bold;
 }
-/* line 39, ../_sass/partials/utility/variables/_typography.scss */
+/* line 38, ../_sass/partials/utility/variables/_typography.scss */
 .section-block .main-title {
   font-size: 55px;
   line-height: 1;
@@ -1183,19 +1183,19 @@ a#contact {
   text-transform: uppercase;
 }
 
-/* line 49, ../_sass/partials/utility/variables/_typography.scss */
+/* line 48, ../_sass/partials/utility/variables/_typography.scss */
 #about .main-title,
 #contact .main-title {
   color: #474a4f;
 }
-/* line 52, ../_sass/partials/utility/variables/_typography.scss */
+/* line 51, ../_sass/partials/utility/variables/_typography.scss */
 #about .sub-title,
 #contact .sub-title {
   color: #1c93c5;
   text-transform: uppercase;
 }
 
-/* line 62, ../_sass/partials/utility/variables/_typography.scss */
+/* line 61, ../_sass/partials/utility/variables/_typography.scss */
 #services .main-title,
 #services .sub-title,
 #services h3.service-title,
@@ -3655,7 +3655,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   font-weight: normal;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 1;
+  line-height: 2em;
   float: left;
   transition: all 0.25s;
 }
