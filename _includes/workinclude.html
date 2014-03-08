@@ -1,9 +1,8 @@
- 
 <section  class="section-block work">
 
       <p class="sub-title" >Some of our clients</p>
       <h2 class="main-title" >Our Work</h2>
- <!-- BEGIN #portfolio-slider --> 
+
   <div class="">
   {% for post in site.categories['work'] %}
       <div class="grid-2 portofolio-content">                      
@@ -15,13 +14,12 @@
               <i class="icon-plus-sign inline-icon"></i>
               </div>                                       
 
-            <img width="558" height="379" src="{{ site.baseurl }}/{{ post.image }}" alt=" {{ post.alttext }} ">
+            <img width="558" height="379" src="/{{ post.image }}" alt=" {{ post.alttext }} ">
             
               </a>
           </div>
        {% endfor %}  
     </div> 
-             <!-- END #portfolio-slider --> 
  </section>
     
     

@@ -819,7 +819,7 @@ input.button-tiny, button.button-tiny {
  */
 /* Browser Resets
 *********************************/
-/* line 18, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 18, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -827,7 +827,7 @@ input.button-tiny, button.button-tiny {
   outline: none;
 }
 
-/* line 21, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 21, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -849,32 +849,32 @@ input.button-tiny, button.button-tiny {
 
 /* FlexSlider Necessary Styles
 *********************************/
-/* line 39, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 39, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider {
   margin: 0;
   padding: 0;
 }
 
-/* line 40, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 40, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-/* line 41, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 41, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider .slides img {
   width: 100%;
   display: block;
 }
 
-/* line 42, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 42, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-pauseplay span {
   text-transform: capitalize;
 }
 
 /* Clearfix for the .slides element */
-/* line 45, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 45, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .slides:after {
   content: "\0020";
   display: block;
@@ -884,12 +884,12 @@ input.button-tiny, button.button-tiny {
   height: 0;
 }
 
-/* line 46, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 46, ../_sass/partials/utility/flexslider/_flexslider.scss */
 html[xmlns] .slides {
   display: block;
 }
 
-/* line 47, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 47, ../_sass/partials/utility/flexslider/_flexslider.scss */
 * html .slides {
   height: 1%;
 }
@@ -897,20 +897,20 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-/* line 52, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 52, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .no-js .slides > li:first-child {
   display: block;
 }
 
 /* FlexSlider Techangel Theme
 *********************************/
-/* line 56, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 56, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider {
   background: #fff;
   position: relative;
 }
 
-/* line 60, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 60, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -919,28 +919,28 @@ html[xmlns] .slides {
   transition: all 1s ease;
 }
 
-/* line 61, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 61, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .loading .flex-viewport {
   max-height: 300px;
 }
 
-/* line 62, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 62, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider .slides {
   zoom: 1;
 }
 
-/* line 63, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 63, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .carousel li {
   margin-right: 5px;
 }
 
 /* Direction Nav */
-/* line 66, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 66, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav {
   *height: 0;
 }
 
-/* line 67, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 67, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav a {
   display: block;
   width: 40px;
@@ -956,42 +956,42 @@ html[xmlns] .slides {
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
-/* line 68, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 68, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
 
-/* line 69, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 69, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 
-/* line 70, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 70, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 
-/* line 71, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 71, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 
-/* line 72, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 72, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
 
-/* line 73, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 73, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default;
 }
 
-/* line 74, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 74, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 40px;
@@ -999,13 +999,13 @@ html[xmlns] .slides {
   content: '\f001';
 }
 
-/* line 75, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 75, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
 
 /* Pause/Play */
-/* line 78, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 78, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -1020,7 +1020,7 @@ html[xmlns] .slides {
   color: #000;
 }
 
-/* line 79, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 79, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
@@ -1028,18 +1028,18 @@ html[xmlns] .slides {
   content: '\f004';
 }
 
-/* line 80, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 80, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 
-/* line 81, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 81, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 
 /* Control Nav */
-/* line 84, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 84, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-nav {
   width: 100%;
   position: absolute;
@@ -1047,7 +1047,7 @@ html[xmlns] .slides {
   text-align: center;
 }
 
-/* line 85, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 85, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
@@ -1055,7 +1055,7 @@ html[xmlns] .slides {
   *display: inline;
 }
 
-/* line 86, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 86, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -1074,34 +1074,34 @@ html[xmlns] .slides {
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-/* line 87, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 87, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 88, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 88, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
 
-/* line 90, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 90, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
 
-/* line 91, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 91, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
 
-/* line 92, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 92, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-thumbs img {
   width: 100%;
   display: block;
@@ -1109,30 +1109,102 @@ html[xmlns] .slides {
   cursor: pointer;
 }
 
-/* line 93, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 93, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
 
-/* line 94, ../_sass/partials/utility/flexslider/flexslider.scss */
+/* line 94, ../_sass/partials/utility/flexslider/_flexslider.scss */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
 }
 
 @media screen and (max-width: 860px) {
-  /* line 97, ../_sass/partials/utility/flexslider/flexslider.scss */
+  /* line 97, ../_sass/partials/utility/flexslider/_flexslider.scss */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
 
-  /* line 98, ../_sass/partials/utility/flexslider/flexslider.scss */
+  /* line 98, ../_sass/partials/utility/flexslider/_flexslider.scss */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
   }
 }
+/* line 1, ../_sass/partials/utility/variables/_typography.scss */
+body {
+  font-family: "Droid Sans";
+  margin: 0px;
+  color: #8d8f92;
+}
+
+/* line 6, ../_sass/partials/utility/variables/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #474a4f;
+}
+
+/* line 9, ../_sass/partials/utility/variables/_typography.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 17, ../_sass/partials/utility/variables/_typography.scss */
+a#about,
+a#services,
+a#work,
+a#contact {
+  display: block;
+  position: relative;
+  top: -124px;
+  visibility: hidden;
+}
+
+/* line 27, ../_sass/partials/utility/variables/_typography.scss */
+#about.section-wrapper,
+#services.section-wrapper,
+#work.section-wrapper,
+#contact.section-wrapper {
+  padding: 80px 0;
+}
+
+/* line 33, ../_sass/partials/utility/variables/_typography.scss */
+.section-block .sub-title {
+  margin: 0 0 15px 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+/* line 38, ../_sass/partials/utility/variables/_typography.scss */
+.section-block .main-title {
+  font-size: 55px;
+  line-height: 1;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/* line 48, ../_sass/partials/utility/variables/_typography.scss */
+#about .main-title,
+#contact .main-title {
+  color: #474a4f;
+}
+/* line 51, ../_sass/partials/utility/variables/_typography.scss */
+#about .sub-title,
+#contact .sub-title {
+  color: #1c93c5;
+  text-transform: uppercase;
+}
+
+/* line 61, ../_sass/partials/utility/variables/_typography.scss */
+#services .main-title,
+#services .sub-title,
+#services h3.service-title,
+#work .main-title,
+#work .sub-title,
+#work h3.service-title {
+  color: #ffffff;
+}
+
 /*!
  *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
@@ -3434,7 +3506,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
  * Styling of the "simple" layout demonstrating the Compass grid extension Susy
  * and building mobile first layouts.
  ******************************************************************************/
-/* line 27, ../_sass/partials/layouts/onepage-layout.scss */
+/* line 27, ../_sass/partials/layouts/_onepage-layout.scss */
 .content-wrapper,
 .header-wrapper,
 .section-wrapper {
@@ -3455,7 +3527,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 @media (min-width: 44em) {
-  /* line 40, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 40, ../_sass/partials/layouts/_onepage-layout.scss */
   .header-block,
   .section-block,
   .footer-block {
@@ -3475,14 +3547,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
     clear: both;
   }
 
-  /* line 46, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 46, ../_sass/partials/layouts/_onepage-layout.scss */
   #navigation {
     width: 49.15254%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 49, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 49, ../_sass/partials/layouts/_onepage-layout.scss */
   .grid-3 {
     width: 23.72881%;
     float: left;
@@ -3494,7 +3566,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
     margin-right: 0;
   }
 
-  /* line 53, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 53, ../_sass/partials/layouts/_onepage-layout.scss */
   .grid-2 {
     width: 49.15254%;
     float: left;
@@ -3507,7 +3579,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   }
 }
 @media (min-width: 70em) {
-  /* line 63, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 63, ../_sass/partials/layouts/_onepage-layout.scss */
   .header-block,
   .section-block,
   .footer-block {
@@ -3527,14 +3599,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
     clear: both;
   }
 
-  /* line 69, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 69, ../_sass/partials/layouts/_onepage-layout.scss */
   #navigation {
     width: 49.36709%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 72, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 72, ../_sass/partials/layouts/_onepage-layout.scss */
   .grid-3 {
     width: 24.05063%;
     float: left;
@@ -3546,7 +3618,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
     margin-right: 0;
   }
 
-  /* line 76, ../_sass/partials/layouts/onepage-layout.scss */
+  /* line 76, ../_sass/partials/layouts/_onepage-layout.scss */
   .grid-2 {
     width: 49.36709%;
     float: left;
