@@ -1,0 +1,75 @@
+/* line 4, ../../../_sass/partials/sections/footer.scss */
+#footer.section-wrapper {
+  background-color: #1f2329;
+}
+/* line 10, ../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer.section-wrapper html, #footer.section-wrapper body {
+  height: 100%;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer.section-wrapper #root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -59px;
+}
+/* line 18, ../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer.section-wrapper #root #root_footer {
+  height: 59px;
+}
+/* line 20, ../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer.section-wrapper #footer {
+  clear: both;
+  position: relative;
+  height: 59px;
+}
+
+/* line 8, ../../../_sass/partials/sections/footer.scss */
+.footer-block {
+  padding: 40px 0;
+  color: #ffffff;
+}
+
+/* line 14, ../../../_sass/partials/sections/footer.scss */
+.footer-left
+ul.social-links {
+  margin-top: 10px;
+}
+/* line 16, ../../../_sass/partials/sections/footer.scss */
+.footer-left
+ul.social-links li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+/* line 20, ../../../_sass/partials/sections/footer.scss */
+.footer-left
+ul.social-links li a .inline-icon {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+/* line 29, ../../../_sass/partials/sections/footer.scss */
+#backToTop {
+  font-size: 2em;
+}
+/* line 31, ../../../_sass/partials/sections/footer.scss */
+#backToTop .inline-icon {
+  color: #ffffff;
+  text-align: right;
+  padding-left: 2em;
+}
+
+/* line 39, ../../../_sass/partials/sections/footer.scss */
+.footer-right .copyright {
+  text-align: right;
+}
+/* line 42, ../../../_sass/partials/sections/footer.scss */
+.footer-right a {
+  color: #1c93c5;
+}
+/* line 45, ../../../_sass/partials/sections/footer.scss */
+.footer-right a:hover {
+  color: #fff;
+}
