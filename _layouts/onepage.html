@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -14,8 +15,22 @@
            {% include headerinclude-frontpage.html %}  
         
       <div id="content" class="onepage-content">
+=======
+  {% include headerhtmlinclude.html %}   
+   
+  {% include headerinclude.html %}  
 
+  <!--     <div id="slideshow" class="content-wrapper">        
+  {% include slideshowinclude.html %}    
+  </div> -->
 
+>>>>>>> changed include file - better order
+
+  <div id="about" class="section-wrapper">        
+  {% include aboutinclude.html %}    
+  </div>
+
+<<<<<<< HEAD
     <!--     <div id="slideshow" class="content-wrapper">        
         {% include slideshowinclude.html %}    
           </div> -->
@@ -25,12 +40,25 @@
         {% include aboutinclude.html %}    
           </div>
 
+=======
+
+  <div id="work" class="section-wrapper">
+  <a id="work" class"anchor"></a>        
+  {% include workinclude.html %}    
+  </div>
+
+  <!--     <a id="services" class"anchor"></a>
+  <div id="services" class="section-wrapper">        
+  {% include servicesinclude.html %}    
+  </div> -->
+>>>>>>> changed include file - better order
 
         <div id="work" class="section-wrapper">
         <a id="work" class="anchor"></a>        
         {% include workinclude.html %}    
           </div>
 
+<<<<<<< HEAD
     <!--     <a id="services" class"anchor"></a>
         <div id="services" class="section-wrapper">        
         {% include servicesinclude.html %}    
@@ -69,3 +97,13 @@
     </html>
     </body>
 >>>>>>> 781641b8e08f62f7c58cec7f49b9c3e44e3e9c63
+=======
+
+  <div id="contact" class="section-wrapper"> 
+  <a id="contact" class"anchor"></a>       
+  {% include contactinclude.html %}    
+  </div>
+
+  {% include footerinclude.html %}    
+ 
+>>>>>>> changed include file - better order
