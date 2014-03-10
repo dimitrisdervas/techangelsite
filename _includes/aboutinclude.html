@@ -1,14 +1,13 @@
-    <section class="section-block ">
-
-      <p class="sub-title" >A Greek Drupal Shop. </p>
-      <h2 class="main-title" >TechAngel</h2>
-
-      {% for post in site.categories['about'] %} 
-   
-                  <h3 class="service-title"> {{ post.title }} </h3>
-                  <div class="service-description"> {{ post.content }} </div>    
-
-                </div>
-            {% endfor %}
-     </section>
+<section id="about" class="section-wrapper">    
+    <div class="section-block ">
+		  <p class="sub-title" >A Greek Drupal Shop. </p>
+		  <h2 class="main-title" >TechAngel</h2>
+			  {% for post in site.categories['about'] %} 
+			  <h3 class="service-title"> {{ post.title }} </h3>
+			  <div class="service-description">
+			  {{ post.content }}     
+			  </div>
+			  {% endfor %}
+       </div>
+	</section>
 
