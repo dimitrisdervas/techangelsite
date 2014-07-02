@@ -1,0 +1,534 @@
+/*
+    Document   : css/styles.scss
+    Created on : 2014-05-24 01:28 PM
+    Author     : dimdervas
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+body {
+  font-family: "Droid Sans";
+  margin: 0px;
+  color: #4b4b57;
+  font-weight: 400;
+  font-size: 1em; }
+
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+  orphans: 3;
+  widows: 3;
+  margin: 0.75em 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #474a4f; }
+
+a {
+  color: #37a;
+  text-decoration: none; }
+
+.list-item {
+  list-style-type: none; }
+
+a#about,
+a#services,
+a#work,
+a#contact {
+  display: block;
+  position: relative;
+  top: -124px;
+  visibility: hidden; }
+
+#about.section-wrapper,
+#services.section-wrapper,
+#work.section-wrapper,
+#contact.section-wrapper {
+  padding: 80px 0; }
+
+.section-block .sub-title {
+  margin: 0 0 15px 0;
+  font-size: 13px;
+  font-weight: bold; }
+.section-block .main-title {
+  font-size: 55px;
+  line-height: 1;
+  margin-top: 0;
+  text-transform: uppercase; }
+
+#about .main-title,
+#contact .main-title {
+  color: #474a4f; }
+#about .sub-title,
+#contact .sub-title {
+  color: #1c93c5;
+  text-transform: uppercase; }
+
+#services .main-title,
+#services .sub-title,
+#services h3.service-title,
+#work .main-title,
+#work .sub-title,
+#work h3.service-title {
+  color: #ffffff; }
+
+/*******************************************************************************
+ * _layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+.header-block,
+.section-block,
+.footer-block {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto; }
+  .header-block:after,
+  .section-block:after,
+  .footer-block:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+#navigation {
+  width: 49.36709%;
+  float: right;
+  margin-right: 0; }
+
+.portofolio-content {
+  width: 49.15254%;
+  float: left; }
+  .portofolio-content:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  .portofolio-content:nth-child(2n + 2) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none; }
+
+.blog-article {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto; }
+  .blog-article:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/*
+    Document   : _sass/layouts/_bloglist.scss
+    Created on : 2014-05-24 04:06 PM
+    Author     : dimdervas
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+.bloglist-content, .bloglist-block {
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto; }
+  .bloglist-content:after, .bloglist-block:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .bloglist-content .list-item, .bloglist-block .list-item {
+    width: 32.20339%;
+    float: left;
+    box-shadow: 1px 1px 0 rgba(136, 136, 153, 0.15);
+    padding: 1em; }
+    .bloglist-content .list-item:nth-child(3n + 1), .bloglist-block .list-item:nth-child(3n + 1) {
+      margin-left: 0;
+      margin-right: -100%;
+      clear: both;
+      margin-left: 0; }
+    .bloglist-content .list-item:nth-child(3n + 2), .bloglist-block .list-item:nth-child(3n + 2) {
+      margin-left: 33.89831%;
+      margin-right: -100%;
+      clear: none; }
+    .bloglist-content .list-item:nth-child(3n + 3), .bloglist-block .list-item:nth-child(3n + 3) {
+      margin-left: 67.79661%;
+      margin-right: -100%;
+      clear: none; }
+  .bloglist-content .inside, .bloglist-block .inside {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    .bloglist-content .inside:after, .bloglist-block .inside:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  .bloglist-content .bloglist-title, .bloglist-block .bloglist-title {
+    font-family: "Merriweather", serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    min-height: 4.5em; }
+
+.list-articles {
+  padding: 0.25em 0 0 0.25em; }
+
+#header {
+  background: #1f2329;
+  color: #fff;
+  width: 100%;
+  height: auto; }
+
+#header a {
+  color: #fff; }
+
+.admin-bar #header {
+  top: 28px; }
+
+#logo {
+  font-size: 1.3em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 3em;
+  float: left; }
+
+.header-block {
+  margin-bottom: 0; }
+
+/*! $Navigation & Menus */
+#primary-nav {
+  margin-top: 16px; }
+
+#primary-nav > ul {
+  float: right; }
+
+#primary-nav ul {
+  margin: 0;
+  padding: 0; }
+
+#primary-nav ul ul {
+  z-index: 1000;
+  position: absolute;
+  background: #1c93c5;
+  top: 46px;
+  overflow: visible !important;
+  -webkit-border-radius: 0 3px 3px 3px;
+  -moz-border-radius: 0 3px 3px 3px;
+  -ms-border-radius: 0 3px 3px 3px;
+  -o-border-radius: 0 3px 3px 3px;
+  border-radius: 0 3px 3px 3px; }
+
+#primary-nav ul ul ul {
+  top: 0; }
+
+#primary-nav ul ul a:hover {
+  color: #1f2329; }
+
+#primary-nav ul ul li {
+  margin: 0; }
+
+#primary-nav li {
+  display: inline-block;
+  line-height: 1;
+  margin-left: 10px;
+  position: relative; }
+
+#primary-nav li.sfHover > a, #primary-nav li.current-menu-item > a, #primary-nav li.active > a {
+  background: #1c93c5; }
+
+#primary-nav li a {
+  display: block;
+  padding: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+
+#primary-nav li a:hover {
+  background: #1c93c5; }
+
+.button,
+button,
+input[type=submit] {
+  font-family: "Novecentowide-Bold", Helvetica, sans-serif;
+  padding: 13px 37px 13px;
+  line-height: 1;
+  background: #1c93c5;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer; }
+
+/* @include sticky-footer(111px); */
+/* @include sticky-footer(30px, '#page', '#container', '#footer'); */
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+#page {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto-111px; }
+  #page #container {
+    padding: 0 0 111px 0; }
+
+#footer {
+  height: 111px; }
+
+#footer.section-wrapper {
+  background-color: #1f2329; }
+
+.footer-block {
+  padding: 40px 0;
+  color: #ffffff; }
+
+.footer-left
+ul.social-links {
+  margin-top: 10px; }
+  .footer-left
+  ul.social-links li {
+    list-style: none;
+    float: left;
+    margin-right: 20px; }
+    .footer-left
+    ul.social-links li a .inline-icon {
+      font-size: 3em;
+      color: #ffffff; }
+
+#backToTop {
+  font-size: 2em; }
+  #backToTop .inline-icon {
+    color: #ffffff;
+    text-align: right;
+    padding-left: 2em; }
+
+.footer-right .copyright {
+  text-align: right; }
+.footer-right a {
+  color: #1c93c5; }
+.footer-right a:hover {
+  color: #fff; }
+
+#slideshow .slider-content {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  display: block;
+  height: auto;
+  color: #fff;
+  text-align: center; }
+
+#slideshow .slider-content h2 {
+  background: #1f2329;
+  background: rgba(31, 35, 41, 0.9);
+  font-size: 65px;
+  display: inline-block;
+  padding: 15px 25px 15px;
+  line-height: 1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #fff; }
+
+#slideshow .slider-content h3 {
+  background: #1c93c5;
+  background: rgba(28, 147, 197, 0.9);
+  font-size: 30px;
+  display: inline-block;
+  padding: 10px 25px 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 1;
+  color: #fff; }
+
+#slideshow a {
+  color: #fff; }
+
+.contact-block-left {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.contact-block-right {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0; }
+
+.contact-description p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+  color: #8d8f92;
+  text-transform: uppercase; }
+
+#contact i.icon-envelope.inline-icon {
+  font-size: 1em; }
+#contact .inline-icon {
+  font-size: 2em;
+  color: #D8D8D8;
+  padding-right: 5px; }
+
+.button:hover,
+button:hover,
+input[type=submit]:hover {
+  background: #187ca6;
+  color: #fff; }
+
+input[type="password"] {
+  margin: 15px 0; }
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+  background: #f8f8f8;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin-bottom: 10px; }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #a3a3a3;
+  outline: 0; }
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #76787c;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #76787c;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#services.section-wrapper {
+  background-color: #CA5851; }
+
+#services .section-block {
+  background-color: #CA5851;
+  color: #fff; }
+
+.service-block {
+  text-align: center; }
+  .service-block p {
+    font-size: 18px;
+    line-height: 25px; }
+
+.service-icons {
+  font-size: 6em; }
+
+#work.section-wrapper {
+  background-color: #474a4f; }
+
+#work .section-block {
+  background-color: #474a4f;
+  color: #fff; }
+#work .portofolio-content {
+  margin-bottom: 40px; }
+#work a .work-title {
+  background: #1f2329;
+  letter-spacing: 1px;
+  max-width: 80%;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 20px 20px;
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  float: left; }
+#work a .morelink {
+  display: inline;
+  float: left; }
+#work a .fa-plus {
+  border-radius: 2px;
+  background-color: #1c93c5;
+  display: inline-block;
+  vertical-align: top;
+  padding: 18px 20px;
+  font-size: 1.5em;
+  color: #ffffff; }
+
+/*
+    Document   : _sass/sections/_blogpost.scss
+    Created on : 2014-05-24 02:17 PM
+    Author     : dimdervas
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+#page {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #f7f7fd; }
+
+.blogposts-content {
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
+
+.blog-article-header {
+  padding-bottom: 0.5rem; }
+
+.blog-article {
+  font-family: "Lato", sans-serif;
+  padding-bottom: 2rem; }
+  .blog-article .blog-title {
+    font-size: 3rem;
+    line-height: 1.1667;
+    color: #26262c;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    line-height: 1.125;
+    letter-spacing: -0.0625rem;
+    margin: 1rem 0 0.5rem; }
+  .blog-article h2 {
+    font-size: 1.8em;
+    line-height: 1.8;
+    color: #26262c; }
+  .blog-article h3 {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: 2em 0 0;
+    color: #660050; }
+  .blog-article .blog-text {
+    font-size: 125%; }
+
+.paginate-previous {
+  float: right; }
+
+.paginate-next {
+  float: left; }
