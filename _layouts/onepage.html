@@ -1,109 +1,32 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
-
     {% include head.html %} 
+    <body> 
+    <div id="page">                
+        <div id="container" class="content-wrapper">  
+               {% include headerinclude-frontpage.html %}  
 
-    <body>
+          <div id="content" class="onepage-content">    
+              <div id="about" class="section-wrapper">        
+              {% include aboutinclude.html %}    
+              </div>   
 
- 
-    <div id="page">
-     
+            <div id="work" class="section-wrapper">
+            <a id="work" class="anchor"></a>        
+            {% include workinclude.html %}    
+             </div>
 
-            
-    <div id="container" class="content-wrapper">  
-           {% include headerinclude-frontpage.html %}  
-        
-      <div id="content" class="onepage-content">
-=======
-  {% include headerhtmlinclude.html %}   
-   
-  {% include headerinclude.html %}  
-
-  <!--     <div id="slideshow" class="content-wrapper">        
-  {% include slideshowinclude.html %}    
-  </div> -->
-
->>>>>>> changed include file - better order
-
-  <div id="about" class="section-wrapper">        
-  {% include aboutinclude.html %}    
-  </div>
-
-<<<<<<< HEAD
-    <!--     <div id="slideshow" class="content-wrapper">        
-        {% include slideshowinclude.html %}    
-          </div> -->
-
-          <a id="about" class="anchor"></a>
-        <div id="about" class="section-wrapper">        
-        {% include aboutinclude.html %}    
-          </div>
-
-=======
-
-  <div id="work" class="section-wrapper">
-  <a id="work" class"anchor"></a>        
-  {% include workinclude.html %}    
-  </div>
-
-  <!--     <a id="services" class"anchor"></a>
-  <div id="services" class="section-wrapper">        
-  {% include servicesinclude.html %}    
-  </div> -->
->>>>>>> changed include file - better order
-
-        <div id="work" class="section-wrapper">
-        <a id="work" class="anchor"></a>        
-        {% include workinclude.html %}    
-          </div>
-
-<<<<<<< HEAD
-    <!--     <a id="services" class"anchor"></a>
-        <div id="services" class="section-wrapper">        
-        {% include servicesinclude.html %}    
-          </div> -->
-
-        <div id="contact" class="section-wrapper"> 
-        <a id="contact" class="anchor"></a>       
-          {% include contactinclude.html %}    
-            </div>
-      </div>   
-     </div> <!-- END #container -->
-        
-        <div id="footer" class="section-wrapper">        
-            {% include footerinclude.html %}    
-        </div>     
-        
-            
-        </div>
-<<<<<<< HEAD
-        </body>
-    </html>
-=======
-     </div>
-  </div>
-    <!-- END #container -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-31451672-3', 'techangel.gr');
-  ga('send', 'pageview');
-
-</script>
-    </html>
-    </body>
->>>>>>> 781641b8e08f62f7c58cec7f49b9c3e44e3e9c63
-=======
-
-  <div id="contact" class="section-wrapper"> 
-  <a id="contact" class"anchor"></a>       
-  {% include contactinclude.html %}    
-  </div>
+            <div id="contact" class="section-wrapper"> 
+            <a id="contact" class="anchor"></a>       
+              {% include contactinclude.html %}    
+              </div>
+        </div>   
+     </div> 
 
   {% include footerinclude.html %}    
  
->>>>>>> changed include file - better order
+ </body>
+</html>
+
+   
+
