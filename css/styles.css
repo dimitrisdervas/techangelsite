@@ -528,7 +528,7 @@ textarea::-moz-placeholder {
     font-size: 125%; }
 
 .paginate-previous {
-  float: right; }
+  float: left; }
 
 .paginate-next {
-  float: left; }
+  float: right; }
