@@ -1,0 +1,44 @@
+#work.section-wrapper {
+    background-color: #474a4f;
+  }
+
+
+
+#work {
+  .section-block {
+      background-color: #474a4f;
+      color: #fff;
+    }
+    .portofolio-content {
+      margin-bottom: 40px;
+    }
+    a {
+      .work-title {
+        background: #1f2329;
+        letter-spacing: 1px;
+        max-width: 80%;
+        font-size: 20px;
+        border-radius: 2px;
+        padding: 20px 20px;
+        color: #fff;
+        line-height: 1;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+        float: left;
+      }
+      .morelink {
+        display: inline;
+        float: left;
+      } 
+      .fa-plus {
+      border-radius: 2px;
+      background-color: #1c93c5;
+      display: inline-block;
+      vertical-align: top;
+      padding: 18px 20px;
+      font-size:1.5em;
+      color: #ffffff;
+      }
+    }
+  }

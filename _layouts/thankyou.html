@@ -1,45 +1,20 @@
 <!DOCTYPE html>
-
 <html>
-
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-        <!-- SCSS, baby -->
-        <link rel="stylesheet" href="/css/screen.css">
-        <!-- Google CDN Hosted jQuery  -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-        <!-- Flexslider Library  -->
-        <script src="/assets/js/flexslider.min.js"></script>
-        <!-- Initialisation Code  -->
-        <script src="/assets/js/app.js"></script>
-
-    </head>
+    {% include head.html %} 
     <body>
-
- 
-{% include headerinclude.html %}  
-
-            
-<div id="container" class="content-wrapper">  
-  <div class="content">
-
-
-      <a id="about" class"anchor"></a>
-    <div id="about" class="section-wrapper">        
-    {% include thankyouinclude.html %}    
-      </div>
-      
-    <div id="footer" class="section-wrapper">        
-      {% include footerinclude.html %}    
+     <div id="page">     
+            {% include headerinclude.html %}             
+        <div id="container" class="content-wrapper">  
+          <div class="content">
+              <a id="about" class="anchor"></a>
+            <div id="about" class="section-wrapper">        
+            {% include thankyouinclude.html %}    
+              </div>
+            <div id="footer" class="section-wrapper">        
+              {% include footerinclude.html %}    
+                </div>
+             </div>
+          </div>
         </div>
-     </div>
-  </div>
-
-    </html>
     </body>
+</html>

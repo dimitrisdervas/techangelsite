@@ -1,70 +1,53 @@
 <!DOCTYPE html>
-
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+    {% include head.html %} 
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-        <!-- SCSS, baby -->
-        <link rel="stylesheet" href="/css/screen.css">
-        <!-- Font Awesome -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <!-- Google CDN Hosted jQuery  -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-        <!-- Flexslider Library  -->
-        <script src="/assets/js/flexslider.min.js"></script>
-        <!-- Initialisation Code  -->
-        <script src="/assets/js/app.js"></script>
-
-
-    </head>
     <body>
 
  
-{% include headerinclude.html %}  
+    <div id="page">
+     
 
             
-<div id="container" class="content-wrapper">  
-  <div class="content">
+    <div id="container" class="content-wrapper">  
+           {% include headerinclude-frontpage.html %}  
+        
+      <div id="content" class="onepage-content">
 
 
-<!--     <div id="slideshow" class="content-wrapper">        
-    {% include slideshowinclude.html %}    
-      </div> -->
+    <!--     <div id="slideshow" class="content-wrapper">        
+        {% include slideshowinclude.html %}    
+          </div> -->
 
-      <a id="about" class"anchor"></a>
-    <div id="about" class="section-wrapper">        
-    {% include aboutinclude.html %}    
-      </div>
-
-    
-    <div id="work" class="section-wrapper">
-    <a id="work" class"anchor"></a>        
-    {% include workinclude.html %}    
-      </div>
-      
-<!--     <a id="services" class"anchor"></a>
-    <div id="services" class="section-wrapper">        
-    {% include servicesinclude.html %}    
-      </div> -->
+          <a id="about" class="anchor"></a>
+        <div id="about" class="section-wrapper">        
+        {% include aboutinclude.html %}    
+          </div>
 
 
-    
-    <div id="contact" class="section-wrapper"> 
-    <a id="contact" class"anchor"></a>       
-      {% include contactinclude.html %}    
+        <div id="work" class="section-wrapper">
+        <a id="work" class="anchor"></a>        
+        {% include workinclude.html %}    
+          </div>
+
+    <!--     <a id="services" class"anchor"></a>
+        <div id="services" class="section-wrapper">        
+        {% include servicesinclude.html %}    
+          </div> -->
+
+        <div id="contact" class="section-wrapper"> 
+        <a id="contact" class="anchor"></a>       
+          {% include contactinclude.html %}    
+            </div>
+      </div>   
+     </div> <!-- END #container -->
+        
+        <div id="footer" class="section-wrapper">        
+            {% include footerinclude.html %}    
+        </div>     
+        
+            
         </div>
-
-    <div id="footer" class="section-wrapper">        
-      {% include footerinclude.html %}    
-        </div>
-     </div>
-  </div>
-    <!-- END #container -->
+        </body>
     </html>
-    </body>

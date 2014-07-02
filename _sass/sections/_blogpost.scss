@@ -1,0 +1,55 @@
+/*
+    Document   : _sass/sections/_blogpost.scss
+    Created on : 2014-05-24 02:17 PM
+    Author     : dimdervas
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+#page{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background-color: #f7f7fd;
+}
+
+.blogposts-content {
+
+        border-top: 1px solid rgba(0,0,0,0.2);
+}
+.blog-article-header {
+    padding-bottom: 0.5rem;
+}
+.blog-article{
+    font-family: "Lato", sans-serif;
+    padding-bottom: 2rem;
+        .blog-title {
+        font-size: 3rem;
+        line-height: 1.1667;
+        color: #26262c;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        line-height: 1.125;
+        letter-spacing: -0.0625rem;
+        margin: 1rem 0 0.5rem;
+            }
+        h2 {
+            font-size: 1.8em;
+            line-height: 1.8;
+            color: #26262c;
+            
+        }
+    	h3 {
+            font-size: 1.2em;
+            line-height: 1.2;
+            margin: 2em 0 0;
+            color: #660050;
+            }
+    .blog-text {
+        font-size: 125%;
+    }
+}
+.paginate-previous {
+    float:right;
+}
+.paginate-next {
+    float:left;
+}

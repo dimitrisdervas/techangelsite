@@ -1,0 +1,33 @@
+/*
+    Document   : _sass/layouts/_bloglist.scss
+    Created on : 2014-05-24 04:06 PM
+    Author     : dimdervas
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+@import "susy";
+
+
+.bloglist-content,.bloglist-block {
+@include container(80em);
+    .list-item {
+        @include gallery( 4 of 12);
+        box-shadow: 1px 1px 0 rgba(136,136,153,0.15);
+        padding: 1em;
+    }
+    .inside {
+        @include container(90%);
+    }
+    .bloglist-title {      
+        font-family: "Merriweather", serif;
+        font-size: 1.25em;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+        min-height: 4.5em;
+    }
+}
+.list-articles {
+padding: 0.25em 0 0 0.25em;
+}

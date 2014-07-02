@@ -3,7 +3,7 @@
       <h2 class="main-title" >GET IN TOUCH</h2>
 
       {% for post in site.categories['contact'] %} 
-          <div class="grid-2 contact-block">
+          <div class="contact-block-left">
 
                   <div class="service-icons">
                     <div class="{{ post.icons }}" ></div>
@@ -13,7 +13,7 @@
 
                 </div>
             {% endfor %}
-          <div class="grid-2 last">
+          <div class="contact-block-right">
 <form action="http://getsimpleform.com/messages?form_api_token=61cdf75d210a898a9c2caa21d0791ab8" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='http://techangel.co/thankyou' />

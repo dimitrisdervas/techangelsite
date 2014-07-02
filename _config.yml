@@ -1,7 +1,11 @@
 name: Techangel
-markdown: redcarpet
-pygments: true
+highlighter: rouge
 permalink: /:categories/:title
-baseurl: 
-excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+baseurl: ""
+sass:
+    sass_dir: _sass
 
+# Build settings
+markdown: kramdown
+permalink: pretty

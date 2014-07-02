@@ -1,0 +1,36 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@import "susy";
+
+
+
+
+
+    .content-wrapper,
+    .header-wrapper,
+    .section-wrapper {
+
+     }
+      .header-block,
+      .section-block,
+      .footer-block,
+        {
+          @include container(70em);
+
+      }
+      #navigation {
+          @include span ( 8 last of 16 );
+      }
+      .portofolio-content {
+          @include gallery(6 of 12);
+
+      }
+       .blog-article {
+         @include container(60em);
+       }
+
+ 
