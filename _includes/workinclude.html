@@ -2,24 +2,23 @@
 
       <p class="sub-title" >Some of our clients</p>
       <h2 class="main-title" >Our Work</h2>
+      <ul>
+          {% for work in site.data.work %}
+              <li class="portofolio-content">                      
+                    <a class="work-link" href="http://{{ work.link }}" target="_blank">
 
-  <div class="">
-  {% for post in site.categories['work'] %}
-      <div class="portofolio-content">                      
-            <a class="work-link" href="http://{{ post.link }}" target="_blank">
+                    <h3 class="work-title">{{ work.title }}</h3>
 
-            <h3 class="work-title">{{ post.title }}</h3>
-
-            <div class="morelink">
-              <i class="fa fa-plus"></i>
-              </div>                                       
-
-            <img width="558" height="379" src="/{{ post.image }}" alt=" {{ post.alttext }} ">
-            
-              </a>
-          </div>
-       {% endfor %}  
-    </div> 
+                    <div class="morelink">
+                      <i class="fa fa-plus"></i>
+                      </div>                                       
+                    <div class="work-image">
+                        <img  src="/{{ work.image }}" alt=" {{ work.alttext }} ">
+                        </div>
+                      </a>
+                  </li>
+               {% endfor %}  
+        </ul> 
  </section>
     
     

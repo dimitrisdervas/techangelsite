@@ -4,15 +4,15 @@
     <p class="sub-title" >HIGHLIGHTING THE PROXY FEATURES. </p>
     <h2 class="main-title" >Services</h2>
 
-    {% for post in site.categories['services'] %} 
-        <div class="grid-3 {{ post.last }} service-block">
+    {% for service in site.data.services %} 
+        <div class="grid-3 {{ service.last }} service-block">
 
                 <div class="service-icons">
-                  <div class="{{ post.icons }} inline-icon" ></div>
+                  <div class="{{ service.icons }} inline-icon" ></div>
                 </div>
 
-                <h3 class="service-title"> {{ post.title }} </h3>
-                <div class="service-description"> {{ post.content }} </div>    
+                <h3 class="service-title"> {{ service.title }} </h3>
+                <div class="service-description"> {{ service.content }} </div>    
 
               </div>
           {% endfor %}

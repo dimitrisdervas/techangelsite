@@ -1,16 +1,16 @@
  <section class="slideshow-block">
   <div class="flexslider">
     <ul class="slides">
-      {% for post in site.categories['slideshow'] %}
+      {% for slide in site.data.slideshow %}
       <li>
       <div class="slider-content">
           <div class="slider-content-inner">
-             <h2>{{ post.title }}</h2>                                
+             <h2>{{ slide.title }}</h2>                                
              <div class="clear"></div>
-             <h3><a href="#">{{ post.subtitle }}</a></h3>  
+             <h3><a href="#">{{ slide.subtitle }}</a></h3>  
             </div>
           </div>
-        <img src="{{ site.baseurl }}/{{ post.image }}">
+        <img src="{{ site.baseurl }}/{{ slide.image }}">
       </li>
       {% endfor %}
     </ul>
