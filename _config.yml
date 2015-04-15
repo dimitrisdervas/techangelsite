@@ -1,5 +1,5 @@
 name: Techangel
-highlighter: rouge
+highlighter: pygments
 permalink: /:categories/:title
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 baseurl: ""
