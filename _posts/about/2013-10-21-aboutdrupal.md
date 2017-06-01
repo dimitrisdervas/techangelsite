@@ -1,7 +1,9 @@
 ---
-layout: about
 title: Drupal - Solve difficult Problems
-categories: about
+date: 2013-10-21 00:00:00 Z
+categories:
+- about
+layout: about
 icons: icon-search
 ---
 

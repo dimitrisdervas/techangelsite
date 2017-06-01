@@ -1,8 +1,9 @@
 ---
-layout: blog
 title: One page site with Drupal
-categories: blog
-
+date: 2017-06-01 14:18:46.014000000 Z
+categories:
+- blog
+layout: blog
 ---
 
 Drupal is becoming a real beast. The possibilities and the contributed modules are endless so to speak.

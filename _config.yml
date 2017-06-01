@@ -1,11 +1,18 @@
+---
+title: Techangelsite
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Techangel
 highlighter: rouge
-permalink: /:categories/:title
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-baseurl: ""
-sass:
-    sass_dir: _sass
-
-# Build settings
-markdown: kramdown
 permalink: pretty
+excerpt_separator: "<!--more-->"
+baseurl: ''
+sass:
+  sass_dir: _sass
+markdown: kramdown
