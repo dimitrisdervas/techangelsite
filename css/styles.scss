@@ -1,32 +1,13 @@
 ---
 ---
 
-/*
-    Document   : css/styles.scss
-    Created on : 2014-05-24 01:28 PM
-    Author     : dimdervas
-    Description:
-    Purpose of the stylesheet follows.
-    To change this template use Tools | Templates.
-*/
-
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-// @import "partials/utility";
 @import "typography";
 @import "layouts/onepage-layout";
 @import "layouts/bloglist-layout";
 @import "sections";
-@import "susy";
+@import "su";
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-
-
-
-
-
 
 
 
