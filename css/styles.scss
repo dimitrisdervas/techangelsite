@@ -1,14 +1,121 @@
 ---
 ---
+// .content-wrapper,
+// .header-wrapper,
+// .section-wrapper {
 
+// }
+// .header-block,
+// .section-block,
+// .footer-block,
+//     {
+    
+// }
+// #navigation {
+   
+// }
+// .portofolio-content {
+    
+
+// }
+// .blog-article {
+    
+// }
 @import "typography";
-@import "layouts/onepage-layout";
-@import "layouts/bloglist-layout";
 @import "sections";
-@import "susy";
 
 
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+    font-size: 16px;
+}
+img {
+    height: 100%;
+}
 
+#about.section-wrapper,
+#services.section-wrapper,
+#work.section-wrapper,
+#contact.section-wrapper {
+grid-area: content;
 
+}
 
+@media screen and (min-width: 768px) {
+    padding: 4rem;
+}
+
+@supports(display: grid) {
+    display: block;
+}
+
+.section-block{
+    padding: 48px 48px 64px 48px;
+}
+
+#work {
+    .section-wrapper {
+        background-color: #474a4f;
+      }
+    .section-block {
+      background-color: #474a4f;
+      color: #fff;
+    }
+    .portofolio {
+        // display: grid;
+        // grid-gap: 4rem;
+        // grid-template-columns: 558px,558px;
+        // grid-auto-rows: 1fr;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portofolio-content {
+        flex: 1;
+        padding: 36px;
+    }
+    .portofolio-content:nth-child(even) {
+        // grid-column: 2/2;
+    }
+    .portofolio-content:nth-child(odd) {
+        // grid-column: 1/2;
+    }
+    a.work-link {
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+      .work-title {
+        background: #1f2329;
+        letter-spacing: 1px;
+        max-width: 558px;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        padding: 20px 20px;
+        color: #fff;
+        line-height: 1;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+
+      }
+      .morelink {
+        display: inline;
+      } 
+      .fa-plus {
+      border-radius: 2px;
+      background-color: #1c93c5;
+      display: inline-block;
+      vertical-align: top;
+      padding: 18px 20px;
+      font-size:1.5em;
+      color: #ffffff;
+      }
+    }
+  }
 

@@ -1,11 +1,9 @@
 #header {
+  grid-area: header;
   background: #1f2329;
   color: #fff;
-  // position: fixed;
-  // top: 0;
-  width: 100%;
-  // z-index: 10001;
-  height: auto;
+  padding: 24px 0 ;
+  
 }
 #header a {
   color: #fff;
@@ -20,20 +18,20 @@
   text-transform: uppercase;
   font-weight: bold;
   line-height: 3em;
-  float: left;
+  align-self: flex-start;
 }
 
 .header-block {
-  margin-bottom:0;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-/*! $Navigation & Menus */
-#primary-nav {
-  margin-top: 16px;
+#navigation {
 }
 #primary-nav > ul {
-  float: right;
+  
 }
 #primary-nav ul {
   margin: 0;

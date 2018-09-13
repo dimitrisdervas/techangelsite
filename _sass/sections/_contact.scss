@@ -1,12 +1,10 @@
-// contact
-@import "susy";
 
 .contact-block-left {
-    @include span (6 of 12);
+   
 }
 
 .contact-block-right {
-     @include span ( 6 last of 12);
+    
 }
 
 .contact-description p {
