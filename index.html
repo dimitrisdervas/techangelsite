@@ -3,25 +3,24 @@ title: Techangel Drupal Shop
 layout: default
 ---
 
-<div id="page">                
+        
 <div id="content" class="onepage-content">    
-<div id="about" class="section-wrapper">        
+<div id="about-link" class="section-wrapper">        
 {% include aboutinclude.html %}    
 </div>
 
 <div id="work" class="section-wrapper">
-<a id="work" class="anchor"></a>        
+<a id="work-link" class="anchor"></a>        
 {% include workinclude.html %}    
 </div>
 
 <div id="contact" class="section-wrapper"> 
-<a id="contact" class="anchor"></a>       
+<a id="contact-link" class="anchor"></a>       
 <section class="section-block ">
 <p class="sub-title" >THE TECHANGEL TEAM, WHO WE ARE</p>
 <h2 class="main-title" >GET IN TOUCH</h2>
 
 {% for post in site.categories['contact'] %} 
-<div class="contact-block-left">
 
 <div class="service-icons">
 <div class="{{ post.icons }}" ></div>
@@ -36,7 +35,7 @@ layout: default
 </section>
 </div>
 </div>   
-</div>
+
 
 
 

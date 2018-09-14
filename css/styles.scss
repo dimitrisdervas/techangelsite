@@ -1,53 +1,120 @@
 ---
 ---
-
-// .content-wrapper,
-// .header-wrapper,
-// .section-wrapper {
-
-// }
-// .header-block,
-// .section-block,
-// .footer-block,
-//     {
-    
-// }
-// #navigation {
-   
-// }
-// .portofolio-content {
-    
-
-// }
-// .blog-article {
-    
-// }
 @import "typography";
-@import "sections";
-
+@import "sections/header";
+@import "sections/footer";
+@import "sections/slideshow";
+@import "sections/contact";
+@import "sections/services";
+@import "sections/blogpost";
 
 body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "header"
-    "content"
-    "footer";
     font-size: 16px;
 }
 img {
     height: 100%;
 }
-
-#about.section-wrapper,
-#services.section-wrapper,
-#work.section-wrapper,
-#contact.section-wrapper {
-grid-area: content;
-
+#page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    color: #4b4b57;
+    font-weight: 400;
+    font-size: 1em;
 }
 
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+orphans: 3;
+widows: 3;
+margin: 0.75em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color: #474a4f;
+}
+
+a {
+    color: #37a;
+    text-decoration: none;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+a#about,
+a#services,
+a#work,
+a#contact { 
+display: block;
+position: relative;
+top: -124px;
+visibility: hidden;
+}
+
+
+
+.section-block {  
+.sub-title {
+margin: 0 0 15px 0;
+font-size: 13px;  
+font-weight: bold;
+}
+    .main-title {
+font-size: 55px;
+line-height: 1;
+margin-top:0;
+text-transform: uppercase;
+}
+}
+
+#about,
+#contact {
+    .main-title {
+        color: #474a4f;
+    }
+    .sub-title {
+        color: #1c93c5;
+        text-transform: uppercase;
+    }
+}
+
+#services,
+#work  {
+    .main-title,
+    .sub-title,
+    h3.service-title {
+        color: #ffffff;
+        
+    }
+}
+#about,
+#services,
+#work {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+}
+#contact {
+    grid-area: content;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+#work {
+    background-color: #474a4f;
+}
+.section-block {
+    max-width: 1280px;
+}
 @media screen and (min-width: 768px) {
     padding: 4rem;
 }
