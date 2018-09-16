@@ -27,8 +27,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     color: #4b4b57;
-    font-weight: 400;
-    font-size: 1em;
 }
 
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
@@ -98,25 +96,24 @@ text-transform: uppercase;
 }
 #about,
 #services,
-#work {
+#work,
+#contact  {
     grid-area: content;
+    width: 100%;
     display: flex;
     justify-content: center;
+    
 }
-#contact {
-    grid-area: content;
+.section-block {
     max-width: 1280px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
 #work {
     background-color: #474a4f;
 }
-.section-block {
-    max-width: 1280px;
-}
+
 @media screen and (min-width: 768px) {
-    padding: 4rem;
+   
 }
 
 @supports(display: grid) {
