@@ -1,12 +1,12 @@
 ---
 title: How to build a one page website Jekyll vs Drupal- part 5 - SASS and Styling
-date: 2014-05-25 00:00:00 Z
+date: 2014-05-25 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
 part: Part 5 - SASS and Styling
----
 
+---
 Permissions for beans
 
 
@@ -72,6 +72,3 @@ class: phone
 
 
 All blocks - title - <none>
-
-
-
