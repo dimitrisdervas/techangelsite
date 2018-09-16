@@ -1,12 +1,12 @@
 ---
 title: How to build a one page website Jekyll vs Drupal
-date: 2014-05-21 00:00:00 Z
+date: 2014-05-21 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
 part: Part 1
----
 
+---
 I follow Drupal for several years and I must admit that Drupal is becoming a real beast. The possibilities and the contributed modules are endless so to speak.
 
 If you are new to Drupal  you can really get lost.
