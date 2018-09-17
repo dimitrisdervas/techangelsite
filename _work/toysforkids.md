@@ -1,10 +1,8 @@
 ---
 title: Toysforkids.gr - eshop
-date: 2013-10-04 00:00:00 Z
-categories:
-- work
+platform: Drupal 6
 layout: work
-image: assets/images/work/toysforkids558px.png
+image: assets/images/work/resize920/toysforkids.png
 link: toysforkids.gr
 last: last
 ---
