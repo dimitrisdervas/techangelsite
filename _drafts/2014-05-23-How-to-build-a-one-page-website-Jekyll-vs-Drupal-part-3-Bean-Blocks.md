@@ -1,12 +1,12 @@
 ---
 title: How to build a one page website Jekyll vs Drupal
-date: 2014-05-23 00:00:00 Z
+date: 2014-05-23 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
 part: Part 3 - Bean Blocks
----
 
+---
 Let's start creating the block types that we are going to use.
 We need a
 

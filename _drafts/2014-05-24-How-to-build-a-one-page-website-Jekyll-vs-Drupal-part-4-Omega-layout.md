@@ -1,12 +1,12 @@
 ---
 title: How to build a one page website Jekyll vs Drupal
-date: 2014-05-24 00:00:00 Z
+date: 2014-05-24 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
 part: Part 4 - Omega Layout
----
 
+---
 In the Omega Theme we can create new page layouts and it is relatively simple process.
 We go here to our them and create a folder layout and then we create a folder with the name of our new page layout e.x.nepage
  Inside that folder we must create two files

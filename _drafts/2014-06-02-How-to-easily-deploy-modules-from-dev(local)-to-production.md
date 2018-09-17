@@ -1,11 +1,11 @@
 ---
 title: How to easily tranfer only enabled modules from dev-local to production-server
-date: 2014-06-02 00:00:00 Z
+date: 2014-06-02 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
----
 
+---
 After a lot of years I finally found an easy way for me to move only the enabled modules from my local dev environment to my productio server
 
 I wanted my modules to be exactly the same version

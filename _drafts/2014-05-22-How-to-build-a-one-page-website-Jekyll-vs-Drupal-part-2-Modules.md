@@ -1,12 +1,12 @@
 ---
 title: How to build a one page website Jekyll vs Drupal
-date: 2014-05-22 00:00:00 Z
+date: 2014-05-22 00:00:00 +0000
 categories:
 - blog
 layout: blogpost
 part: Part 2 - Modules
----
 
+---
 ###Modules I used:
 
 ###Admin Tools and more:
